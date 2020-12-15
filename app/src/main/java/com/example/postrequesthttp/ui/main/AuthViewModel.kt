@@ -23,6 +23,5 @@ class AuthViewModel(private val repository: RetrofitRepositories):ViewModel() {
 
     private fun showError(result: Response<TokenModel>) {
         error.postValue("error")  // для тостика
-
     }
 }

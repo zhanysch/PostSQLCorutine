@@ -7,11 +7,13 @@ import com.example.postrequesthttp.interactors.RetrofitInteractorImpl
 import com.example.postrequesthttp.repository.RetrofitRepositories
 import com.example.postrequesthttp.repository.RetrofitRepositoriesImpl
 import com.example.postrequesthttp.ui.main.AuthViewModel
+import com.example.postrequesthttp.ui.otherActivity.SecondViewModel
 import org.koin.androidx.viewmodel.ext.koin.viewModel
 import org.koin.dsl.module.module
 
 val viewModelModule = module{
     viewModel{AuthViewModel(get())}
+    viewModel{SecondViewModel(get())}
 }
 val repositoryModule = module{
     single { RetrofitBuilder.initRetrofit(BuildConfig.BASE_URL) } //base_url="https://api.sambo.beta.trinitydigital.ru/"
