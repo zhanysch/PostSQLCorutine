@@ -24,9 +24,9 @@ class SecondActivity : AppCompatActivity() {
             Toast.makeText(this,it, Toast.LENGTH_LONG).show()
 
         })
-        viewModel.data.observe(this, Observer {
-            textbla.text = it.firstName.toString()
 
+        viewModel.getProfileModel().observe(this, Observer {
+            textbla.text = it?.firstName.toString()
         })
     }
 }

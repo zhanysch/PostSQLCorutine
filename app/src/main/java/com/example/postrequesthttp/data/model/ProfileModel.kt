@@ -1,11 +1,15 @@
 package com.example.postrequesthttp.data.model
 
 import android.os.Parcelable
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
+@Entity  // для rooom
 data class ProfileModel(
+        @PrimaryKey // room
         val id: Int,
         val email: String?,
         @SerializedName("role_code")
@@ -25,6 +29,7 @@ data class ProfileModel(
         var instagramLink: String?,
         @SerializedName("vk_link")
         var vkLink: String?,
-        var avatar: String?
+        var avatar: String?,
+        var avatar2: String?
 
 ) : Parcelable

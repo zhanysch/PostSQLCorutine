@@ -1,6 +1,6 @@
 package com.example.postrequesthttp.data.remote
 
-import com.example.postrequesthttp.local.PrefsHelper
+import com.example.postrequesthttp.data.local.PrefsHelper
 import okhttp3.Interceptor
 import okhttp3.Response
 

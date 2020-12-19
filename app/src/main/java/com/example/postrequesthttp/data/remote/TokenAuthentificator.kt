@@ -1,7 +1,7 @@
 package com.example.postrequesthttp.data.remote
 
 import com.example.postrequesthttp.data.model.TokenModel
-import com.example.postrequesthttp.local.PrefsHelper
+import com.example.postrequesthttp.data.local.PrefsHelper
 import kotlinx.coroutines.runBlocking
 import okhttp3.Request
 import okhttp3.Response

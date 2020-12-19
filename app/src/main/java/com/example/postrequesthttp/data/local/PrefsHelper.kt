@@ -1,4 +1,4 @@
-package com.example.postrequesthttp.local
+package com.example.postrequesthttp.data.local
 
 import android.content.Context
 import android.content.SharedPreferences

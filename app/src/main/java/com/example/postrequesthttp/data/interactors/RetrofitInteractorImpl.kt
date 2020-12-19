@@ -1,4 +1,4 @@
-package com.example.postrequesthttp.interactors
+package com.example.postrequesthttp.data.interactors
 
 import com.example.postrequesthttp.data.model.ProfileModel
 import com.example.postrequesthttp.data.model.TokenModel

@@ -4,7 +4,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.postrequesthttp.data.model.TokenModel
-import com.example.postrequesthttp.repository.RetrofitRepositories
+import com.example.postrequesthttp.data.repository.RetrofitRepositories
 import kotlinx.coroutines.launch
 import retrofit2.Response
 
